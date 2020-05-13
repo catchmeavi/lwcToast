@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/lwcCustomToast": [
+                "lwcCustomToast/lwcCustomToast.js"
+            ],
+            "c/sampleToastMessage": [
+                "sampleToastMessage/sampleToastMessage.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
